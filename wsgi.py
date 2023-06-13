@@ -133,4 +133,4 @@ api.add_resource(DataWithin, '/ws/data/within')
 
 @application.route('/')
 def index():
-    return 'Welcome to the REDHAT.'
+    return 'Welcome to the REDHAT1.'
