@@ -133,8 +133,8 @@ api.add_resource(DataWithin, '/ws/data/within')
 
 @application.route('/')
 def index():
-    return 'Welcome to the IBM.'
+    return 'Welcome REDHAT.'
 
 @application.route('/adani')
 def adani():
-    return "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/02/09/226306-adani-2.png?itok=XSWZ3YZY"
+    return "Welcome Adani"
