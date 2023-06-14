@@ -137,7 +137,7 @@ def index():
 
 @application.route('/adani')
 def adani():
-    return render_template("index.html")
+    return render_template('index.html')
 
 @application.route('/brijesh')
 def brijesh():
