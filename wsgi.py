@@ -140,5 +140,5 @@ def adani():
     return "Welcome Adani"
 
 @application.route('/brijesh')
-def adani():
+def Brijesh():
     return "Hello Brijesh"
