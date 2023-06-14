@@ -138,3 +138,7 @@ def index():
 @application.route('/adani')
 def adani():
     return "Welcome Adani"
+
+@application.route('/brijesh')
+def adani():
+    return "Hello Brijesh"
