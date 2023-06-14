@@ -137,7 +137,7 @@ def index():
 
 @application.route('/adani')
 def adani():
-    return "Welcome Adani"
+    return "<img src={{ url_for('static',filename='https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/02/09/226306-adani-2.png?itok=XSWZ3YZY') }}>"
 
 @application.route('/brijesh')
 def brijesh():
