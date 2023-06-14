@@ -4,7 +4,7 @@ import os
 import json
 import re
 
-from flask import Flask, request
+from flask import Flask, request, render_template
 from flask_restful import Resource, Api
 
 from pymongo import MongoClient, GEO2D
@@ -137,7 +137,7 @@ def index():
 
 @application.route('/adani')
 def adani():
-    return "<img src={{ url_for('static',filename='https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2023/02/09/226306-adani-2.png?itok=XSWZ3YZY') }}>"
+    return render_template("index.html")
 
 @application.route('/brijesh')
 def brijesh():
