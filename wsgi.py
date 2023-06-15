@@ -135,14 +135,10 @@ api.add_resource(DataWithin, '/ws/data/within')
 def index():
     return 'Welcome REDHAT.'
 
-@application.route('/adani')
-def adani():
-    return render_template('index.html')
+#@application.route('/adani')
+#def adani():
+#    return render_template('index.html')
 
-@application.route('/brijesh')
-def brijesh():
-    return "Hello Brijesh"
-
-@application.route('/fahim')
-def fahim():
-    return "Hello fahim"
+@application.route('/democicd')
+def democicd():
+    return "CI/CD Demo for Adani"
