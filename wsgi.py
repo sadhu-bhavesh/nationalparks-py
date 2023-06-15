@@ -142,3 +142,7 @@ def adani():
 @application.route('/brijesh')
 def brijesh():
     return "Hello Brijesh"
+
+@application.route('/fahim')
+def fahim():
+    return "Hello fahim"
