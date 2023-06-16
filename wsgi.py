@@ -139,6 +139,6 @@ def index():
 #def adani():
 #    return render_template('index.html')
 
-#@application.route('/democicd')
-#def democicd():
-#    return "CI/CD Demo for IIBX"
+@application.route('/democicd')
+def democicd():
+    return "CI/CD Demo for IIBX"
